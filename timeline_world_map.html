@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="2a9801d000fc43e1a170d626f15d631e" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_2a9801d000fc43e1a170d626f15d631e = echarts.init(
+            document.getElementById('2a9801d000fc43e1a170d626f15d631e'), 'white', {renderer: 'canvas'});
+        var option_2a9801d000fc43e1a170d626f15d631e = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "map",
+                "name": "\u5df2\u9ede\u4eae\u7684\u57ce\u5e02",
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                },
+                "mapType": "world",
+                "data": [
+                    {
+                        "name": "Korea",
+                        "value": 7
+                    },
+                    {
+                        "name": "Canada",
+                        "value": 16
+                    },
+                    {
+                        "name": "United Kingdom",
+                        "value": 7
+                    },
+                    {
+                        "name": "Netherlands",
+                        "value": 7
+                    },
+                    {
+                        "name": "China",
+                        "value": 7
+                    },
+                    {
+                        "name": "Japan",
+                        "value": 10
+                    },
+                    {
+                        "name": "China",
+                        "value": 150
+                    }
+                ],
+                "roam": true,
+                "aspectScale": 0.75,
+                "nameProperty": "name",
+                "selectedMode": false,
+                "zoom": 1,
+                "mapValueCalculation": "sum",
+                "showLegendSymbol": false,
+                "emphasis": {}
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": false,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "symbol": "diamond",
+            "symbolSize": 15,
+            "playInterval": 1500,
+            "bottom": "-5px",
+            "lineStyle": {
+                "show": true,
+                "width": 5,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "dashed",
+                "color": "#0080FF"
+            },
+            "label": {
+                "show": true,
+                "position": "top",
+                "color": "#0080FF",
+                "margin": 8,
+                "fontSize": 16,
+                "fontStyle": "italic",
+                "fontWeight": "bold",
+                "fontFamily": "Time New Roman"
+            },
+            "data": [
+                "2014\u5e74",
+                "2018\u5e74",
+                "2019\u5e74",
+                "2022\u5e74"
+            ]
+        },
+        "visualMap": {
+            "show": true,
+            "type": "piecewise",
+            "min": 0,
+            "max": 100,
+            "inRange": {
+                "color": [
+                    "#50a3ba",
+                    "#eac763",
+                    "#d94e5d"
+                ]
+            },
+            "calculable": true,
+            "inverse": false,
+            "splitNumber": 5,
+            "orient": "vertical",
+            "left": "5%",
+            "bottom": "20%",
+            "showLabel": true,
+            "itemWidth": 20,
+            "itemHeight": 14,
+            "borderWidth": 0,
+            "pieces": [
+                {
+                    "min": 91,
+                    "label": ">90\u5929",
+                    "color": "#FF00FF"
+                },
+                {
+                    "min": 31,
+                    "max": 90,
+                    "label": "31-90\u5929",
+                    "color": "#FF44FF"
+                },
+                {
+                    "min": 14,
+                    "max": 30,
+                    "label": "14-30\u5929",
+                    "color": "#FF77FF"
+                },
+                {
+                    "min": 8,
+                    "max": 14,
+                    "label": "8-14\u5929",
+                    "color": "#FF8EFF"
+                },
+                {
+                    "min": 1,
+                    "max": 7,
+                    "label": "1-7\u5929",
+                    "color": "#FFA6FF"
+                }
+            ]
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u5df2\u9ede\u4eae\u7684\u57ce\u5e02"
+                    ],
+                    "selected": {
+                        "\u5df2\u9ede\u4eae\u7684\u57ce\u5e02": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u5df2\u9ede\u4eae\u7684\u57ce\u5e02",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "world",
+                    "data": [
+                        {
+                            "name": "Korea",
+                            "value": 7
+                        },
+                        {
+                            "name": "Canada",
+                            "value": 16
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "Map-2014\u5e74\u4ee5\u524d\u53bb\u904e\u7684\u570b\u5bb6",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 100,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "left": "5%",
+                "bottom": "20%",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "min": 91,
+                        "label": ">90\u5929",
+                        "color": "#FF00FF"
+                    },
+                    {
+                        "min": 31,
+                        "max": 90,
+                        "label": "31-90\u5929",
+                        "color": "#FF44FF"
+                    },
+                    {
+                        "min": 14,
+                        "max": 30,
+                        "label": "14-30\u5929",
+                        "color": "#FF77FF"
+                    },
+                    {
+                        "min": 8,
+                        "max": 14,
+                        "label": "8-14\u5929",
+                        "color": "#FF8EFF"
+                    },
+                    {
+                        "min": 1,
+                        "max": 7,
+                        "label": "1-7\u5929",
+                        "color": "#FFA6FF"
+                    }
+                ]
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u5df2\u9ede\u4eae\u7684\u57ce\u5e02"
+                    ],
+                    "selected": {
+                        "\u5df2\u9ede\u4eae\u7684\u57ce\u5e02": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u5df2\u9ede\u4eae\u7684\u57ce\u5e02",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "world",
+                    "data": [
+                        {
+                            "name": "Korea",
+                            "value": 7
+                        },
+                        {
+                            "name": "Canada",
+                            "value": 16
+                        },
+                        {
+                            "name": "United Kingdom",
+                            "value": 7
+                        },
+                        {
+                            "name": "Netherlands",
+                            "value": 7
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "Map-2018\u5e74\u4ee5\u524d\u53bb\u904e\u7684\u570b\u5bb6",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 100,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "left": "5%",
+                "bottom": "20%",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "min": 91,
+                        "label": ">90\u5929",
+                        "color": "#FF00FF"
+                    },
+                    {
+                        "min": 31,
+                        "max": 90,
+                        "label": "31-90\u5929",
+                        "color": "#FF44FF"
+                    },
+                    {
+                        "min": 14,
+                        "max": 30,
+                        "label": "14-30\u5929",
+                        "color": "#FF77FF"
+                    },
+                    {
+                        "min": 8,
+                        "max": 14,
+                        "label": "8-14\u5929",
+                        "color": "#FF8EFF"
+                    },
+                    {
+                        "min": 1,
+                        "max": 7,
+                        "label": "1-7\u5929",
+                        "color": "#FFA6FF"
+                    }
+                ]
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u5df2\u9ede\u4eae\u7684\u57ce\u5e02"
+                    ],
+                    "selected": {
+                        "\u5df2\u9ede\u4eae\u7684\u57ce\u5e02": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u5df2\u9ede\u4eae\u7684\u57ce\u5e02",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "world",
+                    "data": [
+                        {
+                            "name": "Korea",
+                            "value": 7
+                        },
+                        {
+                            "name": "Canada",
+                            "value": 16
+                        },
+                        {
+                            "name": "United Kingdom",
+                            "value": 7
+                        },
+                        {
+                            "name": "Netherlands",
+                            "value": 7
+                        },
+                        {
+                            "name": "China",
+                            "value": 7
+                        },
+                        {
+                            "name": "Japan",
+                            "value": 10
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "Map-2019\u5e74\u4ee5\u524d\u53bb\u904e\u7684\u570b\u5bb6",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 100,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "left": "5%",
+                "bottom": "20%",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "min": 91,
+                        "label": ">90\u5929",
+                        "color": "#FF00FF"
+                    },
+                    {
+                        "min": 31,
+                        "max": 90,
+                        "label": "31-90\u5929",
+                        "color": "#FF44FF"
+                    },
+                    {
+                        "min": 14,
+                        "max": 30,
+                        "label": "14-30\u5929",
+                        "color": "#FF77FF"
+                    },
+                    {
+                        "min": 8,
+                        "max": 14,
+                        "label": "8-14\u5929",
+                        "color": "#FF8EFF"
+                    },
+                    {
+                        "min": 1,
+                        "max": 7,
+                        "label": "1-7\u5929",
+                        "color": "#FFA6FF"
+                    }
+                ]
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u5df2\u9ede\u4eae\u7684\u57ce\u5e02"
+                    ],
+                    "selected": {
+                        "\u5df2\u9ede\u4eae\u7684\u57ce\u5e02": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u5df2\u9ede\u4eae\u7684\u57ce\u5e02",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "world",
+                    "data": [
+                        {
+                            "name": "Korea",
+                            "value": 7
+                        },
+                        {
+                            "name": "Canada",
+                            "value": 16
+                        },
+                        {
+                            "name": "United Kingdom",
+                            "value": 7
+                        },
+                        {
+                            "name": "Netherlands",
+                            "value": 7
+                        },
+                        {
+                            "name": "China",
+                            "value": 7
+                        },
+                        {
+                            "name": "Japan",
+                            "value": 10
+                        },
+                        {
+                            "name": "China",
+                            "value": 150
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "Map-2022\u5e74\u4ee5\u524d\u53bb\u904e\u7684\u570b\u5bb6",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 100,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "left": "5%",
+                "bottom": "20%",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "min": 91,
+                        "label": ">90\u5929",
+                        "color": "#FF00FF"
+                    },
+                    {
+                        "min": 31,
+                        "max": 90,
+                        "label": "31-90\u5929",
+                        "color": "#FF44FF"
+                    },
+                    {
+                        "min": 14,
+                        "max": 30,
+                        "label": "14-30\u5929",
+                        "color": "#FF77FF"
+                    },
+                    {
+                        "min": 8,
+                        "max": 14,
+                        "label": "8-14\u5929",
+                        "color": "#FF8EFF"
+                    },
+                    {
+                        "min": 1,
+                        "max": 7,
+                        "label": "1-7\u5929",
+                        "color": "#FFA6FF"
+                    }
+                ]
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        }
+    ]
+};
+        chart_2a9801d000fc43e1a170d626f15d631e.setOption(option_2a9801d000fc43e1a170d626f15d631e);
+    </script>
+</body>
+</html>

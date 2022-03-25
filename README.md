@@ -13,5 +13,9 @@
 
 [作业2链接] (https://Liao2000Angel.github.io/timeline_world_map.html)
 ## 3.作业3
+总共画了6种不同的图表，1种图表1个分页方式呈现。
+1.Bar:统计2021年1到12月，欧洲、美洲和非洲的疫情确诊人数
+2.Bar-Slider:记录北京近1个月内的天气，显示降水量、蒸发量和平均气温
+3.Pie:
 
 [作业3链接] (https://Liao2000Angel.github.io/tab_charts.html)

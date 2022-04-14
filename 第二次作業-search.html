@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		.search{
+			position: absolute;
+			width: 30%;
+			left: 40%;
+			top: 40%;
+		}
+		input[type="text"]{
+			height: 30px;
+			border: 2px solid #66B3FF;
+			border-radius: 20px;
+			padding-left: 5%;
+			padding-top: 1%;
+		}
+		input[type="submit"]{
+			height: 25px;
+			width: 75px;
+			border: 1px solid;
+			border-radius: 15px;
+			margin-left: 15px;
+			color: #004B97;
+		}
+		input[type="submit"]:hover{
+			cursor: pointer;
+		}
+	</style>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>搜索功能</title>
+	</head>
+
+	<body id="all">
+		<div id="main">
+			<h1>Microsoft Bing</h1>
+			<p>必应（Bing）是微软公司于2009年5月28日推出的全新搜索引擎服务。 必应集成了多个独特功能，包括每日首页美图，与Windows 8.1深度融合的超级搜索功能，以及崭新的搜索结果导航模式等。</p>
+			<form action = "https://bing.com/search" method = "get">
+				<div class="search">
+					<input type = "text" name = "q" placeholder = "请输入关键字：">
+					<input type = "submit" value = "Bing搜索">
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

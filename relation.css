@@ -1,0 +1,197 @@
+*{
+	outline:none;
+	font-family: Microsoft JhengHei;
+	width: 100%;
+}
+
+body{
+	width: 100%;
+	background-color: #FF9797;
+	color: #fff;
+	overflow-x: hidden;
+}
+
+h1{
+	position: relative;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	/*text-align: center;*/
+	color: #FF5151;
+}
+
+h1>span{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #FF5151;
+}
+
+a:link{
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:none;
+}
+
+#all{
+	width: 100%;
+	/*margin: 0px auto;*/
+	left: 0;
+	overflow-x: hidden;
+}
+
+/*#header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	height: 100px;
+	width: 100%;
+}*/
+
+/*#title #logo{
+	margin-left: 0%;
+	float: left;
+	position: absolute;
+	display: inline-block;
+}
+
+#LOGO{
+	width: 220px;
+	height: 100px;
+	margin-left: 41%;
+	display: inline-block;
+}*/
+
+#logo{
+	padding: 0px 125px;
+	height: 100px;
+	width: 150px;
+}
+
+#wrap{
+	width:100%;
+	margin:0px auto;
+	padding-top:65px;
+}
+#title{
+	background-color:#fff;
+	display:inline-block;
+	line-height: 60px;
+	position: fixed;
+	/*top: 0%;*/
+	vertical-align: middle;
+	margin: 0 auto;
+	height: 90px;
+	width:100%;
+	z-index:1;
+	left: 0px;
+}
+
+#title ul li{
+  display:inline;
+}
+
+#menu{
+	position: absolute;
+	left: 70%;
+	display: inline;
+	/*float: right;*/
+	height: 60px;
+}
+
+#title a{
+	color:#FF5151;
+	font-size:20px;
+	padding:0px 25px;
+}
+
+#title ul li a:hover{
+  background-color:#FF5151;
+  color:#fff;
+}
+
+/*劇情大綱*/
+#plot{
+	position: absolute;
+	left: 4%;
+	margin-top: 3%;
+	width: 1000px;
+}
+
+#stills{
+	display: inline;
+	max-width: 350px;
+}
+
+#plot h2{
+	padding-bottom: 10px;
+	border-bottom: 2px solid white;
+	display: inline;
+	position: absolute;
+	top: 5%;
+	margin-left: 5%;
+	font-size: 2em;
+}
+
+#plot p{
+	/*padding-bottom: 10px;*/
+	display: inline;
+	position: absolute;
+	top: 20%;
+	margin-left: 5%;
+	font-size: 1.3em;
+}
+
+/*人物介紹*/
+#character{
+	position: absolute;
+	left: 2%;
+	margin-top: 40%;
+	width: 1450px;
+}
+
+#character h2{
+	padding-bottom: 10px;
+	border-bottom: 2px solid white;
+	font-size: 2em;
+}
+
+#character h3{
+	margin-left: 50px;
+	font-size: 1.3em;
+}
+
+/*表格*/
+table{
+	margin-left: 50px;
+	text-align: center;
+	border: 3px #E6CAFF groove;
+	width: 1350px;
+}
+
+th{
+	width: 300px;
+	font-size: 1.2em;
+}
+
+td{
+	width: 300px;
+	font-size: 1.2em;
+}
+
+/*人物關係圖*/
+#relation{
+	position: relative;
+	left: 2%;
+	margin-top: 230%;
+	width: 1450px;
+}
+
+#relation h2{
+	padding-bottom: 10px;
+	border-bottom: 2px solid white;
+	font-size: 2em;
+}
+
+#relationchart{
+	margin-left: 20%;
+}
